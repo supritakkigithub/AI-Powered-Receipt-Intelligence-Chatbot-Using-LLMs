@@ -1,0 +1,38 @@
+[
+    {
+      "image": "receipt_image.jfif",
+      "expected": {
+        "restaurant_name": "THE TAVERN RESTAURANT",
+        "restaurant_address": "Sweetfish Sushi, 1345 2nd St, Santa Monica, CA 90401",
+        "order_date_time": "11/24/2018 07:53 AM",
+        "payment_method": "VISA DEBIT CARD PURCHASE",
+        "items_ordered": [
+          {"item": "Chicken Nachos Platter", "quantity": 1, "price": 12.49},
+          {"item": "Iced Tea", "quantity": 1, "price": 2.00},
+          {"item": "Cherry Pie Crumble", "quantity": 1, "price": 5.99}
+        ],
+        "subtotal": 20.48,
+        "tax": 1.64,
+        "total": 22.12
+      }
+    },
+    {
+        "image": "receipt_image1.jfif",
+        "expected": {
+          "restaurant_name": "HARBOR LANE CAFE",
+          "restaurant_address": "3941 GREEN OAKS BLVD, CHICAGO, IL",
+          "order_date_time": "11/20/2019 11:05 AM",
+          "payment_method": "VISA",
+          "items_ordered": [
+            { "item": "Tacos Del Mal Shrimp", "quantity": 1, "price": 14.98 },
+            { "item": "Especial Salad Chicken", "quantity": 1, "price": 12.50 },
+            { "item": "Fountain Beverage", "quantity": 1, "price": 1.99 },
+            { "item": "Ice Coffee", "quantity": 2, "price": 2.99 }
+          ],
+          "subtotal": 29.47,
+          "tax": 1.92,
+          "total": 31.39
+        }
+      }      
+  ]
+  
