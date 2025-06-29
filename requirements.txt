@@ -4,3 +4,4 @@ pillow
 easyocr
 flask             # if app.py is a web server
 google-generativeai
+
